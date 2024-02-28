@@ -43,6 +43,6 @@ jobs:
 
 #  cleanup:
 #    runs-on: ubuntu-latest
-    steps:
-    - name: Logout from Azure
-      run: az logout
+#    steps:
+#    - name: Logout from Azure
+ #     run: az logout
