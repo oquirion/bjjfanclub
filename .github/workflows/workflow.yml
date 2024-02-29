@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-    - uses: azure/login@v1.5.0
+    - uses: azure/login@v1.5.0 
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
     
